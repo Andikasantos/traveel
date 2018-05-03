@@ -81,7 +81,7 @@ class users extends CI_Controller {
 
 			$this->db->delete('user');//menghapus tabel /id yg sudah dipilih
 
-			redirect('user','refresh');//kembali ke controller User dan melakukan refresh page
+			redirect('users','refresh');//kembali ke controller User dan melakukan refresh page
 
 		/*if($this->input->post('submit'))
 		{
